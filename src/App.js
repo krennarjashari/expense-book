@@ -22,7 +22,11 @@ function App() {
     },
   ];
 
-  return <div></div>;
+  return (
+    <div>
+      <Expenses items={expenses}/>
+    </div>
+  );
 }
 
 export default App;
